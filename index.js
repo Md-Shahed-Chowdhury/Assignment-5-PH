@@ -56,7 +56,10 @@ call('anti');
 call('electricity');
 call('brac');
 call('rail');
-
+document.getElementById('clear-btn').addEventListener('click',function(){
+    document.getElementById('history').innerHTML = ``;
+})
+let cssCardHeight = document.getElementsByClassName('card');
 
 
 
