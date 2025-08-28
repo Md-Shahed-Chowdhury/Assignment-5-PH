@@ -9,6 +9,6 @@ parent.appendChild('newChild');
 - When an event is happened, following the elements in which the event has happened it goes to the smallest element which is set as a target. After that if there is any event listener for that specific event then the task said to be done in event listener is performed.That means event listeners of the inner elements are performed first then gradually the outer elements.
 ## What is Event Delegation in JavaScript? Why is it useful?
 - Event delegation means passing the task of event handling of the inner element to any of the outer elements.This helps in dynamic event handling.
-What is the difference between preventDefault() and stopPropagation() methods?
+## What is the difference between preventDefault() and stopPropagation() methods?
 - preventDefault() -> it prevents the default behaviour of the button in form which prevents it from refreshing
 - stopPropagation() -> it prevents the bubbling of events in the same level.
